@@ -109,7 +109,7 @@ function App() {
       </header>
 
       <div
-        className={`fixed inset-0 z-50 duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+        className={`fixed inset-0 z-50 transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
           menuOpen ? 'pointer-events-auto' : 'pointer-events-none'
         }`}
       >
